@@ -25,6 +25,6 @@ input.addEventListener("keydown", (e) => {
         suggestions.innerHTML = "";
         const value = input.value.trim().toLowerCase();
         const found = empireList.some(name => name.toLowerCase() === value);
-        result.textContent = found ? "Appartient à Bolloré" : "N'appartient pas à Bolloré";
+        result.textContent = found ? "Est un financement à l'Empire Bolloré" : "N'est pas un financement à l'Empire Bolloré";
     }
 });

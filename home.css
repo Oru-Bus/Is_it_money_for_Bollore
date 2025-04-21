@@ -18,13 +18,15 @@ body, html {
     align-items: center;
     height: 100vh;
     gap: 10px;
+    padding: 20px; /* Pour éviter que ça colle aux bords sur petits écrans */
 }
 
-/* 1️⃣ Nouveau wrapper, positionné relativement */
 .search-wrapper {
     position: relative;
-    width: 300px; /* même largeur que l'input */
+    width: 90vw;         /* 90% de la largeur de l’écran */
+    max-width: 500px;    /* mais pas plus large que 500px */
 }
+
 
 #searchInput {
     padding: 10px;

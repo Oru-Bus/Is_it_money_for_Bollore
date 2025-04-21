@@ -14,6 +14,7 @@ input.addEventListener("input", () => {
             li.addEventListener("click", () => {
                 input.value = name;
                 suggestions.innerHTML = "";
+                result.textContent = "Est un financement à l'Empire Bolloré";
             });
             suggestions.appendChild(li);
         });

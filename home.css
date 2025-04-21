@@ -1,0 +1,11 @@
+body {
+    margin: 0;
+    height: 100vh; /* Hauteur de la fenêtre */
+    display: flex;
+    justify-content: center; /* Centre horizontalement */
+    align-items: center;     /* Centre verticalement */
+}
+
+h1 {
+    margin: 0;
+}
